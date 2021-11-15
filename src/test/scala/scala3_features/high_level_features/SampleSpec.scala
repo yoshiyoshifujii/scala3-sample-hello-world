@@ -5,7 +5,6 @@ import org.junit.Assert.*
 
 class SampleSpec:
   @Test def t1(): Unit =
-    val oldNumbers= List.empty
-    val numbers = double(oldNumbers)
+    val oldNumbers = List.empty
+    val numbers    = double(oldNumbers)
     assertEquals(numbers.length, 0)
-

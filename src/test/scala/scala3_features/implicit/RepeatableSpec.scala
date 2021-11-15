@@ -8,4 +8,3 @@ class RepeatableSpec:
     import Repeatable.given
     assertEquals("abcabcabc", "abc".repeat(3))
     assertEquals("123123", 123.repeat(2))
-

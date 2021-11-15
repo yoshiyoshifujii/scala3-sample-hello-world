@@ -12,4 +12,3 @@ class TreeSpec:
     )
     val result = depth(branch)
     assertEquals(2, result)
-
